@@ -62,7 +62,6 @@ High-level components and flow:
 - If actionable → **TaskTool** writes to **Memory** (MemoryStore)  
 - Coordinator composes reply draft (LLM) and returns results
 
-```mermaid
 flowchart LR
   subgraph Client
     NB[Notebook / UI]
@@ -154,4 +153,5 @@ I can now:
 - create the **architecture diagram image** (`assets/architecture.png`) and embed it into the notebook.
 
 Which one next? (Reply with: `code`, `writeup`, `diagram`, or `all`)
+
 ::contentReference[oaicite:0]{index=0}
