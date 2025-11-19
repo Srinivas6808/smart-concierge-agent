@@ -1,0 +1,16 @@
+google-generativeai>=0.7.0
+google-ai-generativelanguage
+google-cloud-aiplatform>=1.38.0
+
+adk-python
+adk-types
+
+openai
+tiktoken
+
+python-dotenv
+pydantic
+fastapi
+uvicorn
+
+rich
