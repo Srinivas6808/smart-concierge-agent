@@ -176,12 +176,3 @@ License
 MIT (or choose suitable license). Do not include any proprietary keys or credentials in the repository.
 
 
-I can now:
-- generate the **exact `agent/` Python files** (all code ready-to-paste), or  
-- produce the **1500-word Kaggle submission write-up** (ready to paste into the Kaggle project description), or  
-- create the **architecture diagram image** (`assets/architecture.png`) and embed it into the notebook.
-
-Which one next? (Reply with: `code`, `writeup`, `diagram`, or `all`)
-
-::contentReference[oaicite:0]{index=0}
-
