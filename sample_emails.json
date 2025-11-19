@@ -1,0 +1,9 @@
+{
+  "sample_inbox": [
+    {
+      "from": "hr@example.com",
+      "subject": "Interview Schedule",
+      "body": "Hello Srinivas, your interview is scheduled tomorrow at 10 AM. Please confirm your availability."
+    }
+  ]
+}
