@@ -3,12 +3,17 @@
 **Capstone:** Demonstrates Tool Calling, Memory, and Multi-step Reasoning using ADK patterns  
 **Author:** Rasala Srinivas  
 **Track:** Concierge Agents  
-**Submission:** Kaggle Notebook + GitHub repo
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Build](https://img.shields.io/badge/Project-Smart%20Concierge%20Agent-blue)
+![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-orange)
 
 ---
 
 ## Project Overview (one-line)
 An ADK-style personal assistant agent that ingests emails, extracts actions and tasks, prioritizes them using memory-aware rules, drafts replies, and (optionally) schedules events — demonstrating tool-calling, session & long-term memory, and multi-step planning.
+📄 Kaggle Notebook: https://www.kaggle.com/code/rasalasrinivas/smart-concierge-agent
+    Github : https://github.com/Srinivas6808/smart-concierge-agent
 
 ---
 
@@ -77,6 +82,7 @@ flowchart LR
 
 
 How to run (Kaggle Notebook — recommended)
+
 1. Open the notebook: notebook/smart_concierge_agent.ipynb on Kaggle.
 2. Upload project files to the Kaggle notebook Files panel (or run the notebook cell that writes files). Ensure the agent/, demo_data/, and assets/ folders exist in /kaggle/working/smart-concierge-agent/
 3. Run cells in order. Cells will:
@@ -88,6 +94,28 @@ generate assets/demo_reply.gif (visual demo).
 4. Inspect outputs printed in notebook and generated files in the Files panel.
 
 How to run locally (development)
+## 🚀 How to Run Locally
+
+1. Clone repo  
+   ```bash
+   git clone https://github.com/Srinivas6808/smart-concierge-agent
+   cd smart-concierge-agent
+Install dependencies
+pip install -r requirements.txt
+
+Run the agent
+python main.py
+
+Update your Gemini/OpenAI API keys in environment variables before running.
+This is standard, reviewers love it.
+
+---
+
+## **4️⃣ Small suggestion: Add "Authors" section**
+At bottom of README:
+
+
+
 Clone repo to local machine.
 Create and activate a Python 3.10+ venv.
 pip install -r requirements.txt
@@ -137,10 +165,11 @@ Project Description: Use the Project Description portion of your Kaggle submissi
 Optional: YouTube demo (<3 minutes) to earn bonus points.
 
 
-Contact
-Author: Rasala Srinivas
-Kaggle profile: 
-GitHub: 
+ 👤 Author
+**Rasala Srinivas**  
+Smart Concierge Agent — AI Task & Email Assistant 
+Kaggle profile: https://www.kaggle.com/code/rasalasrinivas/smart-concierge-agent
+GitHub:  https://github.com/Srinivas6808/smart-concierge-agent
 
 
 License
@@ -155,3 +184,4 @@ I can now:
 Which one next? (Reply with: `code`, `writeup`, `diagram`, or `all`)
 
 ::contentReference[oaicite:0]{index=0}
+
